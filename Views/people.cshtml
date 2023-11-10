@@ -40,7 +40,7 @@
                         <h3 class="employee-grid__item__name">@person.Name</h3>
                         @if (!string.IsNullOrEmpty(person.Email))
                         {
-                            <a href="mailto:@person.Email" class="employee-grid__item__email">@person.Email</a>
+                            <p href="" class="employee-grid__item__email">@person.Email</p>
                         }
                         <div class="employee-grid__item__contact">
                             @{ SocialLink(person.FacebookUsername, "Facebook"); }
